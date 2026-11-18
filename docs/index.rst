@@ -29,6 +29,7 @@ Contents
     mysql57_support
     binlogstream
     events
+    cdc
     examples
     support
     developement

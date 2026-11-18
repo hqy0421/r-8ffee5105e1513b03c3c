@@ -21,3 +21,9 @@ limitations under the License.
 """
 
 from .binlogstream import BinLogStreamReader
+from .cdc import (
+    CdcDimensionBackfill,
+    CdcDuplicatePointError,
+    CdcError,
+    group_transactions,
+)
